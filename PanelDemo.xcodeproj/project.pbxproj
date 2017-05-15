@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D1F4E081EC93AEA00B6D872 /* pointerV2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D1F4E071EC93AEA00B6D872 /* pointerV2.png */; };
 		4DD86C751EC5A36E00F1CBF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD86C741EC5A36E00F1CBF7 /* main.m */; };
 		4DD86C781EC5A36E00F1CBF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD86C771EC5A36E00F1CBF7 /* AppDelegate.m */; };
 		4DD86C7B1EC5A36E00F1CBF7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD86C7A1EC5A36E00F1CBF7 /* ViewController.m */; };
 		4DD86C7E1EC5A36E00F1CBF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD86C7C1EC5A36E00F1CBF7 /* Main.storyboard */; };
 		4DD86C801EC5A36E00F1CBF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DD86C7F1EC5A36E00F1CBF7 /* Assets.xcassets */; };
 		4DD86C831EC5A36E00F1CBF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD86C811EC5A36E00F1CBF7 /* LaunchScreen.storyboard */; };
+		4DD86C8C1EC5A38900F1CBF7 /* PanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD86C8B1EC5A38900F1CBF7 /* PanelView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D1F4E071EC93AEA00B6D872 /* pointerV2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pointerV2.png; sourceTree = "<group>"; };
 		4DD86C701EC5A36E00F1CBF7 /* PanelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PanelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DD86C741EC5A36E00F1CBF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4DD86C761EC5A36E00F1CBF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +29,8 @@
 		4DD86C7F1EC5A36E00F1CBF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DD86C821EC5A36E00F1CBF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DD86C841EC5A36E00F1CBF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DD86C8A1EC5A38900F1CBF7 /* PanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanelView.h; sourceTree = "<group>"; };
+		4DD86C8B1EC5A38900F1CBF7 /* PanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanelView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +63,13 @@
 		4DD86C721EC5A36E00F1CBF7 /* PanelDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4D1F4E071EC93AEA00B6D872 /* pointerV2.png */,
 				4DD86C761EC5A36E00F1CBF7 /* AppDelegate.h */,
 				4DD86C771EC5A36E00F1CBF7 /* AppDelegate.m */,
 				4DD86C791EC5A36E00F1CBF7 /* ViewController.h */,
 				4DD86C7A1EC5A36E00F1CBF7 /* ViewController.m */,
+				4DD86C8A1EC5A38900F1CBF7 /* PanelView.h */,
+				4DD86C8B1EC5A38900F1CBF7 /* PanelView.m */,
 				4DD86C7C1EC5A36E00F1CBF7 /* Main.storyboard */,
 				4DD86C7F1EC5A36E00F1CBF7 /* Assets.xcassets */,
 				4DD86C811EC5A36E00F1CBF7 /* LaunchScreen.storyboard */,
@@ -138,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DD86C831EC5A36E00F1CBF7 /* LaunchScreen.storyboard in Resources */,
+				4D1F4E081EC93AEA00B6D872 /* pointerV2.png in Resources */,
 				4DD86C801EC5A36E00F1CBF7 /* Assets.xcassets in Resources */,
 				4DD86C7E1EC5A36E00F1CBF7 /* Main.storyboard in Resources */,
 			);
@@ -151,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DD86C7B1EC5A36E00F1CBF7 /* ViewController.m in Sources */,
+				4DD86C8C1EC5A38900F1CBF7 /* PanelView.m in Sources */,
 				4DD86C781EC5A36E00F1CBF7 /* AppDelegate.m in Sources */,
 				4DD86C751EC5A36E00F1CBF7 /* main.m in Sources */,
 			);
@@ -311,6 +321,7 @@
 				4DD86C891EC5A36E00F1CBF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
